@@ -145,16 +145,25 @@
   <tr>
     <td></td>
     <td>
-      <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. padat</a></li>
-                          <li><a href="#">b. kurang padat</a></li>
-                          <li><a href="#">c. berjauhan</a></li>
-                        </ul>
-                      </div></td>
+
+      
+
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+<option value="" name="">a. padat</option>
+<option value="" name="">b. kurang padat</option>
+<option value="" name="">c. berjauhan</option>
+  </select>
+                      </div>
+
+
+
+
+
+
+
+                    </td>
   </tr>
   <tr>
     <td>2</td>
@@ -164,16 +173,24 @@
   <tr>
     <td></td>
     <td>
-      <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. Permanen, bangunan tembok, lantai keramik</a></li>
-                          <li><a href="#">b. Semi permanen, bangunan setengah tembok, lantai semen</a></li>
-                          <li><a href="#">c. Bangunan papan / kayu, lantai tanah</a></li>
-                        </ul>
+      
+
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. Permanen, bangunan tembok, lantai keramik</option>
+<option value="" name="">b. Semi permanen, bangunan setengah tembok, lantai semen</option>
+<option value="" name="">c. Bangunan papan / kayu, lantai tanah</option>
+  </select>
                       </div>
+                      <!--  -->
+
+
+
+
+
+                    </td>
 
   <tr>
     <td>3</td>
@@ -182,16 +199,17 @@
   <tr>
     <td></td>
     <td>
-      <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. listrik umum</a></li>
-                          <li><a href="#">b. listrik tetangga</a></li>
-                          <li><a href="#">c. lampu minyak</a></li>
-                        </ul>
+      
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+<option value="" name="">a. listrik umum</option>
+<option value="" name="">b. listrik tetangga</option>
+<option value="" name="">c. lampu minyak</option>
+  </select>
                       </div>
+                      <!--  -->
                       </td>
   <tr>
     <td>4</td>
@@ -200,16 +218,17 @@
   <tr>
     <td></td>
     <td>
-      <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. ledeng</a></li>
-                          <li><a href="#">b. sumur bor</a></li>
-                          <li><a href="#">c. air sungai</a></li>
-                        </ul>
-                      </div></td>
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+<option value="" name="">a. ledeng</option>
+<option value="" name="">b. sumur bor</option>
+<option value="" name="">c. air sungai</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   <tr>
     <td>5</td>
     <td colspan="10">Kendaraan yang dimiliki keluarga</td>
@@ -237,16 +256,18 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. bekerja</a></li>
-                          <li><a href="#">b. sekolah</a></li>
-                          <li><a href="#">c. pengangguran</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. bekerja</option>
+<option value="" name="">b. sekolah</option>
+<option value="" name="">c. pengangguran</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
 </table>
 <!-- akhor no 3 -->
@@ -275,16 +296,18 @@
   <tr>
     <td></td>
     <td>
-      <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. ya</a></li>
-                          <li><a href="#">b. ragu - ragu</a></li>
-                          <li><a href="#">c. tidak</a></li>
-                        </ul>
-                      </div></td>
+      
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. ya</option>
+<option value="" name="">b. ragu - ragu</option>
+<option value="" name="">c. tidak</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
   <tr>
     <td>2</td>
@@ -296,16 +319,16 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. ya</a></li>
-                          <li><a href="#">b. ragu - ragu</a></li>
-                          <li><a href="#">c. tidak</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. ya</option>
+<option value="" name="">b. ragu - ragu</option>
+<option value="" name="">c. tidak</option>
+  </select>
+                      </div>
+                    </td>
   </tr>
   <tr>
     <td>3</td>
@@ -317,16 +340,16 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. ya</a></li>
-                          <li><a href="#">b. ragu - ragu</a></li>
-                          <li><a href="#">c. tidak</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. ya</option>
+<option value="" name="">b. ragu - ragu</option>
+<option value="" name="">c. tidak</option>
+  </select>
+                      </div>
+                    </td>
   </tr>
   <tr>
     <td>4</td>
@@ -334,16 +357,18 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. mengisi waktu luang</a></li>
-                          <li><a href="#">b. Semi permanen, bangunan setengah tembok, lantai semen</a></li>
-                          <li><a href="#">c. memiliki keterampilan kerja, modal kerja, dan dapat hidup mandiri</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. mengisi waktu luang</option>
+<option value="" name="">b. Semi permanen, bangunan setengah tembok, lantai semen</option>
+<option value="" name="">c. memiliki keterampilan kerja, modal kerja, dan dapat hidup mandiri</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
   <tr>
     <td>5</td>
@@ -357,16 +382,18 @@
   <tr>
     <td></td>
     <td>
-      <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. Memilih dan mengikuti bimbingan keterampilan yang ada</a></li>
-                          <li><a href="#">b. Mencoba mengikuti sesuai dengan bimbingan pengasuh dan instruktur</a></li>
-                          <li><a href="#">c. Kembali ke kampung dan batal mengikuti pelatihan</a></li>
-                        </ul>
-                      </div></td>
+      
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. Memilih dan mengikuti bimbingan keterampilan yang ada</option>
+<option value="" name="">b. Mencoba mengikuti sesuai dengan bimbingan pengasuh dan instruktur</option>
+<option value="" name="">c. Kembali ke kampung dan batal mengikuti pelatihan</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
   <tr>
     <td>6</td>
@@ -374,16 +401,19 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. Kembali ke kampung, berwirausaha sesuai dengan keterampilan yang dimiliki</a></li>
-                          <li><a href="#">b. Mengembangkan wirausaha bersama kelompok</a></li>
-                          <li><a href="#">c. Akan melanjutkan magang di work shop UPTD PSBR Radin Intan</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+      
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. Kembali ke kampung, berwirausaha sesuai dengan keterampilan yang dimiliki</option>
+<option value="" name="">b. Mengembangkan wirausaha bersama kelompok</option>
+<option value="" name="">c. Akan melanjutkan magang di work shop UPTD PSBR Radin Intan</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
   <tr>
     <td>7</td>
@@ -396,16 +426,18 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. Digunakan sebagai modal dasar untuk berwirausaha dan bekerja sendiri</a></li>
-                          <li><a href="#">b. Digunakan bekerjasama dengan kelompok / dunia usaha</a></li>
-                          <li><a href="#">c. Diberikan kepada orang lain / dijual</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. Digunakan sebagai modal dasar untuk berwirausaha dan bekerja sendiri</option>
+<option value="" name="">b. Digunakan bekerjasama dengan kelompok / dunia usaha</option>
+<option value="" name="">c. Diberikan kepada orang lain / dijual</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
 </table>
 <!-- akhir no 4 -->
@@ -422,17 +454,20 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. pertanian</a></li>
-                          <li><a href="#">b. perkebunan</a></li>
-                          <li><a href="#">c. perdagangan</a></li>
-                          <li><a href="#">d. ganda</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+   
+<option value="" name="">a. pertanian</option>
+<option value="" name="">b. perkebunan</option>
+<option value="" name="">c. perdagangan</option>
+ <option value="" name="">d. ganda</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
   <tr>
     <td>2</td>
@@ -441,21 +476,23 @@
   <tr>
     <td></td>
     <td>
-      <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. sd</a></li>
-                          <li><a href="#">b. puskesmas</a></li>
-                          <li><a href="#">c. terminal bus</a></li>
-                          <li><a href="#">d. smp</a></li>
-                          <li><a href="#">e. rumah sakit</a></li>
-                          <li><a href="#">f. sma</a></li>
-                          <li><a href="#">g. pasar tradisional</a></li>
-                          <li><a href="#">h. pasar modern</a></li>
-                        </ul>
-                      </div></td>
+      
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. sd</option>
+<option value="" name="">b. puskesmas</option>
+<option value="" name="">c. terminal bus</option>
+<option value="" name="">d. smp</option>
+<option value="" name="">e. rumah sakit</option>
+<option value="" name="">f. sma</option>
+<option value="" name="">g. pasar tradisional</option>
+<option value="" name="">h. pasar modern</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
 
   <tr>
@@ -465,18 +502,20 @@
   <tr>
     <td></td>
     <td>
-      <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. bengkel motor</a></li>
-                          <li><a href="#">b. penjahit pakaian</a></li>
-                          <li><a href="#">c. service elektronik</a></li>
-                          <li><a href="#">d. bengkel mobil</a></li>
-                          <li><a href="#">e. salon</a></li>
-                        </ul>
-                      </div></td>
+      
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. bengkel motor</option>
+<option value="" name="">b. penjahit pakaian</option>
+<option value="" name="">c. service elektronik</option>
+<option value="" name="">d. bengkel mobil</option>
+<option value="" name="">e. salon</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
 
   <tr>
@@ -485,33 +524,37 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. Kemauan / semangat kemandirian</a></li>
-                          <li><a href="#">b. keuangan</a></li>
-                          <li><a href="#">c. lokasi</a></li>
-                          <li><a href="#">d. konsumen</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. Kemauan / semangat kemandirian</option>
+<option value="" name="">b. keuangan</option>
+<option value="" name="">c. lokasi</option>
+<option value="" name="">d. konsumen</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   <tr>
     <td>5</td>
     <td colspan="9">Apa yang menjadi kebutuhan utama saudara untuk memulai usaha ?</td>
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. keterampilan kerja</a></li>
-                          <li><a href="#">b. peralatan pokok</a></li>
-                          <li><a href="#">c. tempat usaha</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. keterampilan kerja</option>
+<option value="" name="">b. peralatan pokok</option>
+<option value="" name="">c. tempat usaha</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
   <tr>
     <td>6</td>
@@ -519,16 +562,18 @@
   </tr>
   <tr>
     <td></td>
-    <td><div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                          Pilih jawaban<span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">a. aparat desa</a></li>
-                          <li><a href="#">b. PSM/Orsos/karang taruna dll</a></li>
-                          <li><a href="#">c. orang tua</a></li>
-                        </ul>
-                      </div></td>
+    <td>
+                      <!--  -->
+                      <div class="form-group">
+                        <label for="sel1">pilih jawaban</label>
+  <select class="form-control" id="sel1">
+    <option value="" name="">a. aparat desa</option>
+<option value="" name="">b. PSM/Orsos/karang taruna dll</option>
+<option value="" name="">c. orang tua</option>
+  </select>
+                      </div>
+                      <!--  -->
+                    </td>
   </tr>
 </table>
 <!-- akhir no 5 -->
