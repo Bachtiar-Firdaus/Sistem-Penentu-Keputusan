@@ -35,15 +35,15 @@
         <table border="1">
 			<tr>
 				<td></td>
-				<th colspan="3">Usia</th>
-				<th colspan="3">Tanggungan orang tua</th>
-				<th colspan="3">Pendidikan terakhir</th>
-				<th colspan="3">Pekerjaan orang tua</th>
-				<th colspan="3">Penghasilan orang tua</th>
-				<th colspan="3">Kesehatan</th>
-				<th colspan="3">Kondisi Rumah</th>
-				<th colspan="3">Kendaraan</th>
-				<th colspan="3">Status</th>
+				<th colspan="1">Usia</th>
+				<th colspan="1">Tanggungan orang tua</th>
+				<th colspan="1">Pendidikan terakhir</th>
+				<th colspan="1">Pekerjaan orang tua</th>
+				<th colspan="1">Penghasilan orang tua</th>
+				<th colspan="1">Kesehatan</th>
+				<th colspan="1">Kondisi Rumah</th>
+				<th colspan="1">Kendaraan</th>
+				<th colspan="1">Status</th>
 			</tr>
 
 			<tr>
@@ -56,288 +56,62 @@
 
 				<th>Usia</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Tanggungan orang tua</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Pendidikan terakhir</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Pekerjaan orang tua</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Penghasilan orang tua</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Kesehatan</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Kondisi Rumah</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Kendaraan</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Status</th>
 				<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td><input type="number" name="" class="inputt"></td>
-									<td>/</td>
-									<td><input type="number" name="" class="inputt"></td>
 
 			</tr>
 		</table>
