@@ -20,17 +20,6 @@
 <form method="post" accept-charset="utf-8" action="<?php echo base_url()?>index.php/C_psm_kab/pertanyaan_a">
     <div class="form-group">
 
-        <div  style="width: 170px;  float: left;">
-            <select name = "nama" class="form-control" style="width: 160px; float: left; margin: 5px;">
-                <option>Pilih nama data calon siswa</option>
-                    <?php foreach($dcs as $r){?>
-                <option>
-                    <?php echo $r->nama; ?>
-                </option>
-                    <?php }?>
-            </select>
-        </div>
-
         <div  style="width: 170px;  float: left; ">
             <button type="submit" style="width: 160px; margin: 5px;" id="btncetak" class="btn btn-primary">Tambah Pertanyaan
             </button>

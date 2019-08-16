@@ -1,13 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class M_calon_siswa extends CI_Model {
+class M_pertanyaan extends CI_Model {
 
-	var $table = 'tbl_calon_siswa';
-	var $table1 = 'tbl_pertanyaan';
+	var $table = 'tbl_pertanyaan';
 
-	var $column_order = array('id','nama','jk','ttl','agama','suku','bahasa','desa','kecamatan','kabupaten','pt_k1','pt_k2','pt_k3','atls','km','mn','pb','bpbd_k1','bpbd_k2','bpbd_k3','bpbd_k4',null); //set column field database for datatable orderable
-	var $column_search = array('nama','jk','ttl','agama','suku','bahasa','desa','kecamatan','kabupaten','pt_k1','pt_k2','pt_k3','atls','km','mn','pb','bpbd_k1','bpbd_k2','bpbd_k3','bpbd_k4'); //set column field database for datatable searchable just firstname , lastname , address are searchable
+	var $column_order = array('id','id_cs',null); //set column field database for datatable orderable
+	var $column_search = array('id_cs'); //set column field database for datatable searchable just firstname , lastname , address are searchable
 	var $order = array('id' => 'desc'); // default order 
 
 	public function __construct()
@@ -18,7 +17,6 @@ class M_calon_siswa extends CI_Model {
 
 	private function _get_datatables_query()
 	{
-		
 		$this->db->from($this->table);
 
 		$i = 0;
@@ -104,19 +102,4 @@ class M_calon_siswa extends CI_Model {
 		$this->db->delete($this->table);
 	}
 
-    public function getdcs() {
-        $query = $this->db->query("SELECT * FROM  tbl_calon_siswa where con ='1'");
-        return $query->result();
-    }
-
-	public function save1($data)
-	{
-		$this->db->insert($this->table1, $data);
-		return $this->db->insert_id();
-	}
-	public function update1($where, $data1)
-	{
-		$this->db->update($this->table, $data1, $where);
-		return $this->db->affected_rows();
-	}
 }
