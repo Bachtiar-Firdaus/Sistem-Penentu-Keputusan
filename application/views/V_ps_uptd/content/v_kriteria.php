@@ -29,7 +29,8 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-
+<form method="post" accept-charset="utf-8" action="<?php echo base_url()?>index.php/x/x">
+    <div class="form-group"> 
       <div class="modal-body" style="overflow: scroll;">
       	<!-- hasil sebelum normalisasi -->
         <table border="1">
@@ -55,63 +56,63 @@
 								</style>
 
 				<th>Usia</th>
-				<td><input type="number" name="" class="inputt"></td>
-				<td><input type="number" name="" class="inputt"></td>
-				<td><input type="number" name="" class="inputt"></td>
-				<td><input type="number" name="" class="inputt"></td>
-				<td><input type="number" name="" class="inputt"></td>
-				<td><input type="number" name="" class="inputt"></td>
-				<td><input type="number" name="" class="inputt"></td>
-				<td><input type="number" name="" class="inputt"></td>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Usia_Usia_bk" class="inputt"></td>
+				<td><input type="number" name="Tanggungan_Usia_b" class="inputt"></td>
+				<td><input type="number" name="Pendidikan_Usia_b" class="inputt"></td>
+				<td><input type="number" name="Pekerjaan_Usia_b" class="inputt"></td>
+				<td><input type="number" name="Penghasilan_Usia_b" class="inputt"></td>
+				<td><input type="number" name="Kesehatan_Usia_b" class="inputt"></td>
+				<td><input type="number" name="Kondisi_Usia_b" class="inputt"></td>
+				<td><input type="number" name="Kendaraan_Usia_b" class="inputt"></td>
+				<td><input type="number" name="Status_Usia_b" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Tanggungan orang tua</th>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Tanggungan_Usia_k" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Pendidikan terakhir</th>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Pendidikan_Usia_k" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Pekerjaan orang tua</th>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Pekerjaan_Usia_k" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Penghasilan orang tua</th>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Penghasilan_Usia_k" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Kesehatan</th>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Kesehatan_Usia_k" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Kondisi Rumah</th>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Kondisi_Usia_k" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Kendaraan</th>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Kendaraan_Usia_k" class="inputt"></td>
 
 			</tr>
 
 			<tr>
 				<th>Status</th>
-				<td><input type="number" name="" class="inputt"></td>
+				<td><input type="number" name="Status_Usia_k" class="inputt"></td>
 
 			</tr>
 		</table>
@@ -120,8 +121,11 @@
 
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-        <button type="button" class="btn btn-primary">Hitung</button>
+        <button type="submit" class="btn btn-primary">Hitung</button>
       </div>
+
+    </div>
+</form> 
     </div>
   </div>
 </div>
@@ -146,135 +150,336 @@
 		<th>Status</th>
 		<th>Rata - rata</th>
 	</tr>
+
 	<tr>
 		<th>Usia</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Usia_1; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Usia_1; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Tanggungan orang tua</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Tanggungan_2; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Tanggungan_2; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Pendidikan terakhir</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Pendidikan_3; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Pendidikan_3; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Pekerjaan orang tua</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Pekerjaan_4; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Pekerjaan_4; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Penghasilan orang tua</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Penghasilan_5; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Penghasilan_5; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Kesehatan</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Kesehatan_6; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Kesehatan_6; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Kondisi rumah</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Kondisi_7; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Kondisi_7; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Kendaraan</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>0,5</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Kendaraan_8; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Kendaraan_8; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Status</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Status_9; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Status_9; ?>
+                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Hasil</th>
-		<th>1</th>
-		<th>0,25</th>
-		<th>0,3</th>
-		<th>0,5</th>
-		<th>0,5</th>
-		<th>2</th>
-		<th>2</th>
-		<th>0,25</th>
-		<th>0,5</th>
-		<th>2</th>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Usia_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Tanggungan_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pendidikan_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Pekerjaan_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Penghasilan_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kesehatan_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kondisi_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Kendaraan_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Status_Rata_10; ?>
+                    <?php }?></td>
+		<td><?php foreach($getkriteria as $r){?>
+                    <?php echo $r->Rata_Rata_10; ?>
+                    <?php }?></td>
 	</tr>
 </table><br><br><br>
 <!-- akhir hasil sebelum normlisasi -->

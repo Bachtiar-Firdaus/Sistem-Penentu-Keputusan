@@ -3,6 +3,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class C_ps_uptd extends CI_Controller {
 
+	public function __construct()
+	{
+		parent::__construct();
+		
+/*		if($this->session->userdata('akses') != "ADMIN"){
+			$url=base_url();
+			redirect($url);
+		}*/
+
+		$this->load->model('m_kriteria');
+	}
 	public function index()
 	{
 		$data['contents'] = 'V_ps_uptd/content/dashboard';
@@ -11,9 +22,24 @@ class C_ps_uptd extends CI_Controller {
 
 	public function v_kriteria()
 	{
-		$data['contents'] = 'V_ps_uptd/content/v_kriteria';
+
+		$data['contents'] = 'V_ps_uptd/content/v_kriteriatemp';
 		$this->load->view('V_ps_uptd/index',$data);
+        $x['getkriteria'] = $this->m_kriteria->getkriteria(); 
+		$this->load->view('V_ps_uptd/content/v_kriteria',$x,$data);
+
 	}
+
+
+
+
+
+
+
+
+
+
+
 
 	public function v_perhitungan()
 	{
