@@ -22,11 +22,11 @@ class C_ps_uptd extends CI_Controller {
 
 	public function v_kriteria()
 	{
-
 		$data['contents'] = 'V_ps_uptd/content/v_kriteriatemp';
 		$this->load->view('V_ps_uptd/index',$data);
-        $x['getkriteria'] = $this->m_kriteria->getkriteria(); 
-		$this->load->view('V_ps_uptd/content/v_kriteria',$x,$data);
+        $data['getkriteria'] = $this->m_kriteria->getkriteria(); 
+        $data['getkriteria_normalisasi'] = $this->m_kriteria->getkriteria_normalisasi(); 
+		$this->load->view('V_ps_uptd/content/v_kriteria',$data);
 
 	}
 

@@ -1,3 +1,4 @@
+
 <style type="text/css">
 	tr, td,th{
 		padding: 10px;
@@ -9,6 +10,7 @@
 		width:93%;
 	}
 </style>
+
 
 <div class="containeredit">
 
@@ -483,7 +485,9 @@
 	</tr>
 </table><br><br><br>
 <!-- akhir hasil sebelum normlisasi -->
-
+<?php 
+	$b=$getkriteria_normalisasi->row_array();
+?>
 <!-- hasil setelah normlisasi -->
 <h1>normalisasi kriteri / eigen</h1>
 <h1>hasil setelah normlisasi</h1>
@@ -503,133 +507,133 @@
 	</tr>
 	<tr>
 		<th>Usia</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Usia_1s'];?></td>
+		<td><?php echo $b['Tanggungan_Usia_1s'];?></td>
+		<td><?php echo $b['Pendidikan_Usia_1s'];?></td>
+		<td><?php echo $b['Pekerjaan_Usia_1s'];?></td>
+		<td><?php echo $b['Penghasilan_Usia_1s'];?></td>
+		<td><?php echo $b['Kesehatan_Usia_1s'];?></td>
+		<td><?php echo $b['Kondisi_Usia_1s'];?></td>
+		<td><?php echo $b['Kendaraan_Usia_1s'];?></td>
+		<td><?php echo $b['Status_Usia_1s'];?></td>
+		<td><?php echo $b['Rata_Usia_1s'];?></td>
 	</tr>
 	<tr>
 		<th>Tanggungan orang tua</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Tanggungan_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Pendidikan_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Pekerjaan_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Penghasilan_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Kesehatan_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Kondisi_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Kendaraan_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Status_Tanggungan_2s'];?></td>
+		<td><?php echo $b['Rata_Tanggungan_2s'];?></td>
 	</tr>
 	<tr>
 		<th>Pendidikan terakhir</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Tanggungan_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Pendidikan_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Pekerjaan_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Penghasilan_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Kesehatan_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Kondisi_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Kendaraan_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Status_Pendidikan_3s'];?></td>
+		<td><?php echo $b['Rata_Pendidikan_3s'];?></td>
 	</tr>
 	<tr>
 		<th>Pekerjaan orang tua</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Tanggungan_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Pendidikan_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Pekerjaan_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Penghasilan_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Kesehatan_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Kondisi_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Kendaraan_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Status_Pekerjaan_4s'];?></td>
+		<td><?php echo $b['Rata_Pekerjaan_4s'];?></td>
 	</tr>
 	<tr>
 		<th>Penghasilan orang tua</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Tanggungan_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Pendidikan_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Pekerjaan_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Penghasilan_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Kesehatan_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Kondisi_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Kendaraan_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Status_Penghasilan_5s'];?></td>
+		<td><?php echo $b['Rata_Penghasilan_5s'];?></td>
 	</tr>
 	<tr>
 		<th>Kesehatan</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Tanggungan_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Pendidikan_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Pekerjaan_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Penghasilan_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Kesehatan_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Kondisi_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Kendaraan_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Status_Kesehatan_6s'];?></td>
+		<td><?php echo $b['Rata_Kesehatan_6s'];?></td>
 	</tr>
 	<tr>
 		<th>Kondisi rumah</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Kondisi_7s'];?></td>
+		<td><?php echo $b['Tanggungan_Kondisi_7s'];?></td>
+		<td><?php echo $b['Pendidikan_Kondisi_7s'];?></td>
+		<td><?php echo $b['Pekerjaan_Kondisi_7s'];?></td>
+		<td><?php echo $b['Penghasilan_Kondisi_7s'];?></td>
+		<td><?php echo $b['Kesehatan_Kondisi_7s'];?></td>
+		<td><?php echo $b['Kondisi_Kondisi_7s'];?></td>
+		<td><?php echo $b['Kendaraan_Kondisi_7s'];?></td>
+		<td><?php echo $b['Status_Kondisi_7s'];?></td>
+		<td><?php echo $b['Rata_Kondisi_7s'];?></td>
 	</tr>
 	<tr>
 		<th>Kendaraan</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>0,5</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Tanggungan_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Pendidikan_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Pekerjaan_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Penghasilan_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Kesehatan_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Kondisi_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Kendaraan_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Status_Kendaraan_8s'];?></td>
+		<td><?php echo $b['Rata_Kendaraan_8s'];?></td>
 	</tr>
 	<tr>
 		<th>Status</th>
-		<td>1</td>
-		<td>0,25</td>
-		<td>0,3</td>
-		<td>0,3</td>
-		<td>0,5</td>
-		<td>2</td>
-		<td>2</td>
-		<td>0,25</td>
-		<td>0,5</td>
-		<td>2</td>
+		<td><?php echo $b['Usia_Status_9s'];?></td>
+		<td><?php echo $b['Tanggungan_Status_9s'];?></td>
+		<td><?php echo $b['Pendidikan_Status_9s'];?></td>
+		<td><?php echo $b['Pekerjaan_Status_9s'];?></td>
+		<td><?php echo $b['Penghasilan_Status_9s'];?></td>
+		<td><?php echo $b['Kesehatan_Status_9s'];?></td>
+		<td><?php echo $b['Kondisi_Status_9s'];?></td>
+		<td><?php echo $b['Kendaraan_Status_9s'];?></td>
+		<td><?php echo $b['Status_Status_9s'];?></td>
+		<td><?php echo $b['Rata_Status_9s'];?></td>
 	</tr>
 	<tr>
 		<th>Hasil</th>
-		<th>1</th>
-		<th>0,25</th>
-		<th>0,3</th>
-		<th>0,5</th>
-		<th>0,5</th>
-		<th>2</th>
-		<th>2</th>
-		<th>0,25</th>
-		<th>0,5</th>
-		<th>2</th>
+		<td><?php echo $b['Usia_Rata_10s'];?></td>
+		<td><?php echo $b['Tanggungan_Rata_10s'];?></td>
+		<td><?php echo $b['Pendidikan_Rata_10s'];?></td>
+		<td><?php echo $b['Pekerjaan_Rata_10s'];?></td>
+		<td><?php echo $b['Penghasilan_Rata_10s'];?></td>
+		<td><?php echo $b['Kesehatan_Rata_10s'];?></td>
+		<td><?php echo $b['Kondisi_Rata_10s'];?></td>
+		<td><?php echo $b['Kendaraan_Rata_10s'];?></td>
+		<td><?php echo $b['Status_Rata_10s'];?></td>
+		<td><?php echo $b['Rata_Rata_10s'];?></td>
 	</tr>
 </table>
 <!-- akhir hasil setelah normlisasi -->
