@@ -7,7 +7,6 @@ Kesehatan_Usia_1
 Kondisi_Usia_1
 Kendaraan_Usia_1
 Status_Usia_1
-Rata_Usia_1
 
 Usia_Tanggungan_2
 Tanggungan_Tanggungan_2
@@ -18,7 +17,6 @@ Kesehatan_Tanggungan_2
 Kondisi_Tanggungan_2
 Kendaraan_Tanggungan_2
 Status_Tanggungan_2
-Rata_Tanggungan_2
 
 Usia_Pendidikan_3
 Tanggungan_Pendidikan_3
@@ -29,7 +27,6 @@ Kesehatan_Pendidikan_3
 Kondisi_Pendidikan_3
 Kendaraan_Pendidikan_3
 Status_Pendidikan_3
-Rata_Pendidikan_3
 
 Usia_Pekerjaan_4
 Tanggungan_Pekerjaan_4
@@ -40,7 +37,6 @@ Kesehatan_Pekerjaan_4
 Kondisi_Pekerjaan_4
 Kendaraan_Pekerjaan_4
 Status_Pekerjaan_4
-Rata_Pekerjaan_4
 
 Usia_Penghasilan_5
 Tanggungan_Penghasilan_5
@@ -51,7 +47,6 @@ Kesehatan_Penghasilan_5
 Kondisi_Penghasilan_5
 Kendaraan_Penghasilan_5
 Status_Penghasilan_5
-Rata_Penghasilan_5
 
 Usia_Kesehatan_6
 Tanggungan_Kesehatan_6
@@ -62,7 +57,6 @@ Kesehatan_Kesehatan_6
 Kondisi_Kesehatan_6
 Kendaraan_Kesehatan_6
 Status_Kesehatan_6
-Rata_Kesehatan_6
 
 Usia_Kondisi_7
 Tanggungan_Kondisi_7
@@ -73,7 +67,6 @@ Kesehatan_Kondisi_7
 Kondisi_Kondisi_7
 Kendaraan_Kondisi_7
 Status_Kondisi_7
-Rata_Kondisi_7
 
 Usia_Kendaraan_8
 Tanggungan_Kendaraan_8
@@ -84,7 +77,6 @@ Kesehatan_Kendaraan_8
 Kondisi_Kendaraan_8
 Kendaraan_Kendaraan_8
 Status_Kendaraan_8
-Rata_Kendaraan_8
 
 Usia_Status_9
 Tanggungan_Status_9
@@ -95,7 +87,6 @@ Kesehatan_Status_9
 Kondisi_Status_9
 Kendaraan_Status_9
 Status_Status_9
-Rata_Status_9
 
 Usia_Rata_10
 Tanggungan_Rata_10
@@ -106,4 +97,3 @@ Kesehatan_Rata_10
 Kondisi_Rata_10
 Kendaraan_Rata_10
 Status_Rata_10
-Rata_Rata_10

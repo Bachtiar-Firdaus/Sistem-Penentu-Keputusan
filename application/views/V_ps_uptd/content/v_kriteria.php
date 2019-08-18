@@ -31,22 +31,12 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-<form method="post" accept-charset="utf-8" action="<?php echo base_url()?>index.php/x/x">
+<form method="post" accept-charset="utf-8" action="<?php echo base_url()?>index.php/C_ps_uptd/proses_kriteria">
     <div class="form-group"> 
       <div class="modal-body" style="overflow: scroll;">
       	<!-- hasil sebelum normalisasi -->
         <table border="1">
 			<tr>
-				<td></td>
-				<th colspan="1">Usia</th>
-				<th colspan="1">Tanggungan orang tua</th>
-				<th colspan="1">Pendidikan terakhir</th>
-				<th colspan="1">Pekerjaan orang tua</th>
-				<th colspan="1">Penghasilan orang tua</th>
-				<th colspan="1">Kesehatan</th>
-				<th colspan="1">Kondisi Rumah</th>
-				<th colspan="1">Kendaraan</th>
-				<th colspan="1">Status</th>
 			</tr>
 
 			<tr>
@@ -59,14 +49,6 @@
 
 				<th>Usia</th>
 				<td><input type="number" name="Usia_Usia_bk" class="inputt"></td>
-				<td><input type="number" name="Tanggungan_Usia_b" class="inputt"></td>
-				<td><input type="number" name="Pendidikan_Usia_b" class="inputt"></td>
-				<td><input type="number" name="Pekerjaan_Usia_b" class="inputt"></td>
-				<td><input type="number" name="Penghasilan_Usia_b" class="inputt"></td>
-				<td><input type="number" name="Kesehatan_Usia_b" class="inputt"></td>
-				<td><input type="number" name="Kondisi_Usia_b" class="inputt"></td>
-				<td><input type="number" name="Kendaraan_Usia_b" class="inputt"></td>
-				<td><input type="number" name="Status_Usia_b" class="inputt"></td>
 
 			</tr>
 
@@ -150,7 +132,6 @@
 		<th>Kondisi Rumah</th>
 		<th>Kendaraan</th>
 		<th>Status</th>
-		<th>Rata - rata</th>
 	</tr>
 
 	<tr>
@@ -182,9 +163,6 @@
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Usia_1; ?>
                     <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Usia_1; ?>
-                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Tanggungan orang tua</th>
@@ -214,9 +192,6 @@
                     <?php }?></td>
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Tanggungan_2; ?>
-                    <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Tanggungan_2; ?>
                     <?php }?></td>
 	</tr>
 	<tr>
@@ -248,9 +223,6 @@
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Pendidikan_3; ?>
                     <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Pendidikan_3; ?>
-                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Pekerjaan orang tua</th>
@@ -280,9 +252,6 @@
                     <?php }?></td>
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Pekerjaan_4; ?>
-                    <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Pekerjaan_4; ?>
                     <?php }?></td>
 	</tr>
 	<tr>
@@ -314,9 +283,6 @@
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Penghasilan_5; ?>
                     <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Penghasilan_5; ?>
-                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Kesehatan</th>
@@ -346,9 +312,6 @@
                     <?php }?></td>
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Kesehatan_6; ?>
-                    <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Kesehatan_6; ?>
                     <?php }?></td>
 	</tr>
 	<tr>
@@ -380,9 +343,6 @@
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Kondisi_7; ?>
                     <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Kondisi_7; ?>
-                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Kendaraan</th>
@@ -412,9 +372,6 @@
                     <?php }?></td>
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Kendaraan_8; ?>
-                    <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Kendaraan_8; ?>
                     <?php }?></td>
 	</tr>
 	<tr>
@@ -446,9 +403,6 @@
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Status_9; ?>
                     <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Status_9; ?>
-                    <?php }?></td>
 	</tr>
 	<tr>
 		<th>Hasil</th>
@@ -478,9 +432,6 @@
                     <?php }?></td>
 		<td><?php foreach($getkriteria as $r){?>
                     <?php echo $r->Status_Rata_10; ?>
-                    <?php }?></td>
-		<td><?php foreach($getkriteria as $r){?>
-                    <?php echo $r->Rata_Rata_10; ?>
                     <?php }?></td>
 	</tr>
 </table><br><br><br>
@@ -633,7 +584,6 @@
 		<td><?php echo $b['Kondisi_Rata_10s'];?></td>
 		<td><?php echo $b['Kendaraan_Rata_10s'];?></td>
 		<td><?php echo $b['Status_Rata_10s'];?></td>
-		<td><?php echo $b['Rata_Rata_10s'];?></td>
 	</tr>
 </table>
 <!-- akhir hasil setelah normlisasi -->

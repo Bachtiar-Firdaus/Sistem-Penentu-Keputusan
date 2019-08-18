@@ -242,7 +242,12 @@ class C_psm_kab extends CI_Controller {
             $row[] = $m_pertanyaan->id_cs;
 
 			//add html for action
-                	$row[] = '<a class="btn btn-sm btn-danger" href="javascript:void(0)" title="CETAK" onclick="delete_m_calon_siswa('."'".$m_pertanyaan->id."'".')"><i class="glyphicon glyphicon-trash"></i> CETAK</a>';
+				$row[] = '<form method="post" accept-charset="utf-8" action="cetak_pertanyaan">
+								<div class="form-group"> 
+									<input type="hidden" name="id" value='."'".$m_pertanyaan->id."'".'>
+									<input type="submit" value="cetak">
+								</div>
+							</form>';
 			$data[] = $row;
 		}
 
@@ -257,9 +262,12 @@ class C_psm_kab extends CI_Controller {
 	}
 
 
-
-
-	
+	public function cetak_pertanyaan()
+	{
+		$id = $this->input->post('id');
+        $data['a'] = $this->m_pertanyaan->getpertanyaan($id); 
+		$this->load->view('V_psm_kab/content/V_cetak_pertanyaan',$data);
+	}
 
 	public function upload_berkas()
 	{

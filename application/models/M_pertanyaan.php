@@ -102,4 +102,9 @@ class M_pertanyaan extends CI_Model {
 		$this->db->delete($this->table);
 	}
 
+    public function getpertanyaan($id) 
+    {
+        $query = $this->db->query("SELECT * FROM  tbl_pertanyaan where id ='$id' ");
+        return $query;
+    }
 }

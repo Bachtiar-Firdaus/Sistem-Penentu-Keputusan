@@ -181,7 +181,6 @@
          type: "GET",
          dataType: "JSON",
          success: function (data) {
-'','','','','','','','','','','','','','','','','','','','bpbd_k4'
             $('[name="id"]').val(data.id);
             $('[name="nama"]').val(data.nama);
             $('[name="jk"]').val(data.jk);
